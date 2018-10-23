@@ -2,7 +2,7 @@
 /* //BODY// */
 
 body {
-    background-color: #f2f2f2;
+    background-color: #F2F2F2;
     /*background-image: url("assets/back-shade-full-blue.jpg");
     background-position:fixed;*/
     background-size: cover;
@@ -198,7 +198,7 @@ h2 + .btn-blue {
         padding: .5rem;
     }
     .menu a {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     #profil {
         margin-top: 8rem;
