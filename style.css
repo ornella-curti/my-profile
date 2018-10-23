@@ -1,0 +1,141 @@
+body{
+    /*background-color: #f7e9e3;*/
+    background-image: url("assets/back-shade-orange.jpg");
+    background-position:fixed;
+    background-size: cover;
+    color: rgb(30,30,30);
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+}
+
+h1{
+    color:#495057;
+    font-size: 44px;
+}
+
+h2{
+    color:#6dc9c8;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.container{
+    width:800px;
+    margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+    .container{
+        width: 600px
+    }
+}
+
+@media (max-width: 500px) {
+    .container{
+        width: 400px
+    }
+}
+
+.card-white{
+    background: white;
+    padding: 40px;
+    margin: 40px 30px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.05);
+    border-radius: 6px;
+    text-align: center;
+}
+
+.img-circle{
+    border-radius: 50%;
+    border: 3px solid;
+    border-color: #6dc9c8;
+}
+
+.picture img {
+    width: 14rem;
+    height: 14rem;
+    border-radius: 50%;
+}
+
+.btn-blue{
+    background-color: #0e3150;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 13px;
+    border-radius: 40px;
+}
+
+.btn-blue:hover {
+    background-color: #87a8d0;
+}
+
+
+.p-justify{
+    text-align: justify;
+}
+
+.list-inline{
+    list-style: none;
+    padding-left:0px;
+}
+.list-inline li{
+    background-color: #0e3150;
+    display: inline-block;
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    margin-right: 15px;
+}
+.list-inline i{
+        color: #fff;
+    }
+.list-inline li:hover{
+    background-color: #87a8d0;
+}
+
+.list-act-inline{
+    list-style: none;
+    padding-left:0px;
+}
+.list-act-inline li{
+    display: inline-block;
+    font-size: 60px;
+    padding: 25px;
+    color: #0e3150;
+}
+
+.menu{
+    float: none;
+    list-style-type: none;
+    padding:13px;
+    margin:0;
+    position: fixed;
+    width: 20%;
+    background-color: #ffff ;
+    max-width: 740px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.menu li{
+    display: block;
+    background-color: #eee;
+    border: 2px solid #40464D;
+    padding: 10px 5px;
+    background-color:#6dc9c8;
+    color: white;
+}
+
+table{
+    padding-left: 8rem;
+    font-size: 18px;
+}
