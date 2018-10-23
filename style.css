@@ -197,6 +197,9 @@ h2 + .btn-blue {
     .menu li {
         padding: .5rem;
     }
+    .menu a {
+        font-size: 1.5rem;
+    }
     #profil {
         margin-top: 8rem;
     }
