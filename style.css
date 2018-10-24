@@ -43,7 +43,7 @@ a {
     padding: 2.5rem;
     margin: 2.5rem 0;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
-    border-radius: 6px;
+    border-radius: 8px;
     text-align: center;
 }
 
@@ -191,7 +191,7 @@ h2 + .btn-blue {
         width: 100%;
     }
     .card-white {
-        padding: 5rem;
+        padding: 4rem 2rem;
         margin: 5rem 0;
     }
     .menu li {
@@ -202,6 +202,9 @@ h2 + .btn-blue {
     }
     #profil {
         margin-top: 8rem;
+    }
+    .languages-wrapper {
+        font-size: : 2rem;
     }
 
 }
