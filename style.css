@@ -1,6 +1,4 @@
-
 /* //BODY// */
-
 body {
     background-color: #F2F2F2;
     /*background-image: url("assets/back-shade-full-blue.jpg");
@@ -30,7 +28,6 @@ a {
 }
 
 /* //MISE EN PAGE// */
-
 .container {
     width: 100%;
     max-width: 800px;
@@ -53,9 +50,7 @@ a {
     border-color: #6dc9c8;
 }
 
-
 /* NAVBAR*/
-
 .menu {
     width: 100%;
     max-width: 800px;
@@ -68,7 +63,7 @@ a {
     background: #fff;
     padding: 0;
     /*box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);*/
-    border: 1px solid rgb(230,230,230);
+    border: 1px solid rgb(230, 230, 230);
     text-align: center;
     padding: .75rem 0;
     margin: 0;
@@ -93,9 +88,7 @@ a {
     color: #62C2C0;
 }
 
-
 /* BUTTONS STYLE */
-
 .btn-blue {
     background-color: #0e3150;
     color: white;
@@ -110,17 +103,16 @@ a {
     background-color: #87a8d0;
 }
 
-h2 + .btn-blue {
+h2+.btn-blue {
     margin-top: 0;
 }
 
-
 /* //SPECIFIC DESIGN// */
-
 /* PROFIL */
 #profil {
     margin-top: 5.5rem;
 }
+
 .picture img {
     width: 14rem;
     height: 14rem;
@@ -185,26 +177,29 @@ h2 + .btn-blue {
 }
 
 /* MOBILE DISPLAY*/
-
 @media (max-width: 760px) {
     .container {
         width: 100%;
     }
+
     .card-white {
         padding: 4rem 2rem;
         margin: 5rem 0;
     }
+
     .menu li {
         padding: .5rem;
     }
+
     .menu a {
         font-size: 1rem;
     }
+
     #profil {
         margin-top: 8rem;
     }
+
     .languages-wrapper {
         font-size: : 2rem;
     }
-
 }
